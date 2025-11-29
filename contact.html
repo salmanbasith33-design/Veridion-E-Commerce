@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Veridion</title>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha552-3/zcd1w+yFv2R3c4T7Z1K3z4h9Xv9y7I4R3K5l2t7E6N5J1xJzP4j5o0b3q2k8W6T3A==" crossorigin="anonymous"
+        referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+
+
+
+
+</head>
+
+<body>
+    <nav class="navbar">
+        <h1>Veridion</h1>
+        <div class="navbar-links">
+            <p class="navbar-link"><a href="index.html">Home</a></p>&nbsp;&nbsp;&nbsp;
+            <p class="navbar-link"><a href="collections.html">Collections</a></p>&nbsp;&nbsp;&nbsp;
+            <p class="navbar-link"><a href="contact.html">Contact</a></p>
+        </div>
+
+        <div class="navbar-menu-toggle" onclick="showNavbar()">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+    </nav>
+
+
+<div class="parent-container">
+<div class="form-container">
+    <h2>Contact Us</h2>
+    <form>
+        <input type="text" placeholder="Full Name" required>
+        <input type="email" placeholder="Email Address" required>
+        <textarea placeholder="Your Message" required></textarea>
+        <button type="submit">Submit</button>
+    </form>
+</div>
+</div>
+
+
+
+
+    <div class="side-navbar" onclick="closeNavbar()">
+        <p style="text-align: right;">
+            <i class="fa-solid fa-xmark"></i>
+        </p>
+
+
+        <div class="side-navbar-links">
+            <p class="side-navbar-link"><a href="index.html">Home</a></p>
+            <p class="side-navbar-link"><a href="collections.html">Collections</a></p>
+            <p class="side-navbar-link"><a href="contact.html">Contact</a></p>
+
+        </div>
+
+    </div>
+
+
+
+    <div class="footer">
+
+        <div class="footer-container">
+            <div class="footer-box-1">
+                <h2 class="header-footer">Veridion</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis laborum in.</p>
+                <div class="icons-container">
+
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-linkedin"></i>
+
+                </div>
+            </div>
+        </div>
+        <p>@2025 Veridion.com</p>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
